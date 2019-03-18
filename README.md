@@ -26,14 +26,6 @@ run `docker-compose up -d`
 Access http://<MACHINE_IP>:3000/ or http://localhost:3000/
 Please use icognito mode. Still resolving issue of the normal browser appends a trailing slash on the API endpoints which triggers error 400 during GET requests
 
-## Why I chose to design the app this way (Architecture)
-
-I considered microservices and single page application because it's more efficient in handling data in terms of backend
-and front-end. An idea setup is that there are number of microservices which shares the data load while the using the react.js
-just adjusts the changed html element
-
-Python's strength is speed on processing backend requests and it's syntax is easier to understand.
-
 ## Things left to do (due to limited time):
 
 - Still resolving error 400 when clicking accept or decline button (React to Python Backend - Flask)
