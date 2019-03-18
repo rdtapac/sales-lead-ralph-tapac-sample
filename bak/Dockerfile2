@@ -1,0 +1,49 @@
+FROM ubuntu:19.04
+
+MAINTAINER Ralph Tapac "rdtapac@gmail.com"
+
+#RUN apt-get update -y && \
+#    apt-get install -y python-pip python-dev
+#RUN apt-get install -y python3.7 python-pip3.7
+
+
+RUN apt-get update
+
+RUN apt-get update && apt-get install -y apt-transport-https
+
+RUN apt install wget -y
+RUN apt-get install xz-utils -y
+RUN apt-get install zlib1g-dev -y
+RUN apt-get install libffi-dev -y
+RUN apt-get install make -y
+
+RUN apt-get install autoconf -y
+
+RUN  apt update -qq -y
+RUN mkdir -p /tmp/Python && cd "$_"
+RUN wget -c https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
+RUN tar xf Python-3.7.0.tar.xz
+RUN cd Python-3.7.0
+
+#RUN autoconf
+#RUN make clean
+#ENTRYPOINT ["/bin/bash", "-lc", "ocp-indent"]
+
+#RUN ./configure -q; 
+#RUN make && make install
+
+RUN ./configure -q; make && make install
+
+
+
+#COPY ./requirements.txt /app/requirements.txt
+
+#WORKDIR /app
+
+#RUN pip install -r requirements.txt
+
+#COPY SalesLead /app
+
+#ENTRYPOINT [ "python" ]
+
+#CMD [ "run.py" ]
