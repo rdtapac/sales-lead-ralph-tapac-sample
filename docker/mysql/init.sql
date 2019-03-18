@@ -74,3 +74,5 @@ Morbi rutrum felis lacinia eros tincidunt scelerisque. Morbi aliquam porttitor s
 (5, 5, 'Lando Calrissian', '0433335555', 'lando@mailinator.com', 62, 'Quisque blandit erat id mi tincidunt porta. Vivamus eleifend sagittis neque id maximus. Etiam molestie, massa ut tempus fermentum, augue nisi pulvinar nunc, id malesuada ipsum ipsum nec odio. Etiam et nisl facilisis, egestas massa eget, sagittis sapien. Curabitur eget consequat diam. Proin auctor rhoncus est, vitae imperdiet sem mollis.'),
 (1, 6, 'Jabba TheHutt', '0411443322', 'jabba@mailinator.com', 55, 'Suspendisse consequat malesuada arcu id venenatis. Donec maximus, dolor quis elementum scelerisque, lorem diam ornare arcu, sed venenatis orci justo nec nibh. Maecenas sollicitudin pulvinar lorem, at aliquet tortor tincidunt at. Vestibulum blandit, arcu eu blandit vehicula, orci nulla porta justo, a semper nunc risus sit amet ante. Donec lobortis.')
 ;
+
+UPDATE `jobs` SET status = 'accepted' WHERE id IN (1,3);
