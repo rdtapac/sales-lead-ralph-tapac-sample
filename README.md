@@ -22,6 +22,7 @@ Configurations must also be considered:
 
 ## Running the app
 
+run `docker-compose up -d`
 Access http://<MACHINE_IP>:3000/ or http://localhost:3000/
 Please use icognito mode. Still resolving issue of the normal browser appends a trailing slash on the API endpoints which triggers error 400 during GET requests
 
@@ -39,7 +40,7 @@ Python's strength is speed on processing backend requests and it's syntax is eas
 - Update state job list after clicking a card's accept or decline button
 - Adjust the footer details of the job list item based on selected menu tab (function to switch display of elements)
 - UI Styling
-- API Request Authentication mechanism for REST API 
+- API Request Authentication mechanism for REST API
 
 ## Additional Note
 
