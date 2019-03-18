@@ -6,7 +6,7 @@ while the client app is developed using react.js
 ## Why I chose to design the app this way (Architecture)
 
 I considered microservices and single page application because it's more efficient in handling data in terms of backend
-and front-end. An idea setup is that there are number of microservices which shares the data load while the using the react.js
+and front-end. An ideal setup is that there are number of microservices which shares the data load while the using the react.js
 just adjusts the changed html element
 
 Python's strength is speed on processing backend requests and it's syntax is easier to understand.
