@@ -1,4 +1,4 @@
-Sales Leads App - hipages Full Stack Engineer Tech Challenge 
+Sales Leads App - hipages Full Stack Engineer Tech Challenge (Ralph Tapac)
 ==========================================
 Description: The sample is composed of a backend API developed in Python 3.7 and Flask Framework 
 while the client app is developed using react.js
