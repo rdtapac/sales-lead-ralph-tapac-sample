@@ -15,6 +15,7 @@ Configurations must also be considered:
 - Please adjust SalesApp/instance/config.py with 
 ```SQLALCHEMY_DATABASE_URI='mysql+mysqlconnector://root:hipages@<your ip adderess>/db_sales_lead'``` (Mac OS)
 ```SQLALCHEMY_DATABASE_URI='mysql+mysqlconnector://root:hipages@localhost/db_sales_lead'``` (non-Mac OS)
+- You can reach my at rdtapac@gmail.com if you have questions regarding how to make the sample run
 
 ## Why I chose to design the app this way (Architecture)
 I considered microservices and single page application because it's more efficient in handling data in terms of backend 
