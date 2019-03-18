@@ -39,6 +39,7 @@ Python's strength is speed on processing backend requests and it's syntax is eas
 - Update state job list after clicking a card's accept or decline button
 - Adjust the footer details of the job list item based on selected menu tab (function to switch display of elements)
 - UI Styling
+- API Request Authentication mechanism for REST API 
 
 ## Additional Note
 
