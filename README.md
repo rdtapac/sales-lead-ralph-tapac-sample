@@ -22,8 +22,9 @@ Configurations must also be considered:
 
 ## Running the app
 
-run `docker-compose up -d`
-Access http://<MACHINE_IP>:3000/ or http://localhost:3000/
+run `docker-compose up -d`. Access http://<MACHINE_IP>:3000/ or http://localhost:3000/
+
+
 Please use icognito mode. Still resolving issue of the normal browser appends a trailing slash on the API endpoints which triggers error 400 during GET requests
 
 ## Things left to do (due to limited time):
